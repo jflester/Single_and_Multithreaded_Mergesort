@@ -1,4 +1,4 @@
-mergesort.c
+MERGESORT.C
 
 Runs the mergesort algorithm on arrays, either in a singlethreaded fashion or multithreaded.
 
@@ -8,13 +8,13 @@ in a more traditional manner.
 
 
 
-bresource.h & resource.h
+BRESOURCE.H & RESOURCE.H
 
 Files from the GNU C Library for use in mergesort.
 
 
 
-mergetest.c
+MERGETEST.C
 
 Can be used to test results from mergesort.c using the single and multithreaded functions
 and see how long it takes each method to accomplish a task given a random of array of a size
@@ -22,13 +22,13 @@ provided by the user.
 
 
 
-test.c
+TEST.C
 
 Is an even simpler test file to make sure single threaded in mergesort.c doesn't change the length
 of the given array.
 
 
 
-makefile
+MAKEFILE
 
 Traditional makefile, using gcc as the compiler.
